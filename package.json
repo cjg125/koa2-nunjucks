@@ -1,0 +1,30 @@
+{
+  "name": "koa2-nunjucks",
+  "description": "koa2 middleware for nunjucks",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "next",
+    "nunjucks": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node --harmony example/"
+  },
+  "keywords": [
+    "koa",
+    "middleware",
+    "nunjucks"
+  ],
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cjg125/koa2-nunjucks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cjg125/koa2-nunjucks/issues"
+  },
+  "homepage": "https://github.com/cjg125/koa2-nunjucks"
+}
