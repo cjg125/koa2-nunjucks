@@ -16,7 +16,7 @@ app.use(nj({
 }))
 
 app.use(async(ctx, next) => {
-  ctx.render('index', { body: 'Hello World' })
+  await ctx.render('index', { body: 'Hello World' })
 })
 
 app.listen(3000)
